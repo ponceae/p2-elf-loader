@@ -1,0 +1,14 @@
+==298581== Memcheck, a memory error detector
+==298581== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==298581== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==298581== Command: ../y86 inputs/simple.o
+==298581== 
+==298581== 
+==298581== HEAP SUMMARY:
+==298581==     in use at exit: 0 bytes in 0 blocks
+==298581==   total heap usage: 3 allocs, 3 frees, 12,760 bytes allocated
+==298581== 
+==298581== All heap blocks were freed -- no leaks are possible
+==298581== 
+==298581== For lists of detected and suppressed errors, rerun with: -s
+==298581== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

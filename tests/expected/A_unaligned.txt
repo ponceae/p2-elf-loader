@@ -1,0 +1,17 @@
+01 00 18 01 10 00 03 00  00 00 00 00 45 4c 46 00
+Mini-ELF version 1
+Entry point 0x118
+There are 3 program headers, starting at offset 16 (0x10)
+There is no symbol table present
+There is no string table present
+ Segment   Offset    VirtAddr  FileSize  Type      Flag
+  00       0x004c    0x0000    0x0009    CODE      R X
+  01       0x0055    0x0118    0x0002    CODE      R X
+  02       0x0057    0x013a    0x0008    DATA      RW 
+Contents of memory from 0000 to 0009:
+  0000  70 18 01 00 00 00 00 00  00
+Contents of memory from 0118 to 011a:
+  0110                           10 00
+Contents of memory from 013a to 0142:
+  0130                                 39 30 00 00 00 00
+  0140  00 00

@@ -1,0 +1,11 @@
+01 00 00 01 10 00 02 00  00 00 00 00 45 4c 46 00
+Mini-ELF version 1
+Entry point 0x100
+There are 2 program headers, starting at offset 16 (0x10)
+There is no symbol table present
+There is no string table present
+Contents of memory from 0100 to 0115:
+  0100  30 f3 0f 00 00 00 20 31  40 13 fd ff ff ff 60 31
+  0110  70 08 01 00 00
+Contents of memory from 0200 to 020b:
+  0200  aa bb cc dd 00 00 00 dd  00 00 00

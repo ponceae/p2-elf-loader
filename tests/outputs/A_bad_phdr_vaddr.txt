@@ -1,0 +1,4 @@
+Contents of memory from 0100 to 0115:
+  0100  00 aa bb cc dd 00 00 00  dd 00 00 00 05 00 00 01
+  0110  70 00 08 01 75
+Failed to read file

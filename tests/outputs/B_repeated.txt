@@ -1,0 +1,3 @@
+ Segment   Offset    VirtAddr  FileSize  Type      Flag
+  00       0x0038    0x0100    0x0015    CODE      R X
+  01       0x004d    0x0200    0x000b    DATA      RW 

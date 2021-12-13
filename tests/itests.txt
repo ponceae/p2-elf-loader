@@ -1,0 +1,25 @@
+C_help                         pass
+C_simple_H                     pass
+C_simple_s                     pass
+C_multiseg_sH                  pass
+C_multiseg_f                   pass
+C_multiseg_fsHM                pass
+C_stripped_sM                  pass
+C_more_flags_s                 pass
+B_stripped_m                   pass
+B_stripped_mH                  pass
+B_all_flags                    pass
+B_repeated                     pass
+B_stack                        pass
+A_brief_full                   pass
+A_bad_phdr_vaddr               FAIL (see outputs/A_bad_phdr_vaddr.diff for details)
+A_bad_phdr_short               pass
+A_bad_phdr_magic               pass
+A_no_flags                     pass
+A_no_flags_bad                 pass
+A_missing_file                 pass
+A_extra_params                 pass
+A_mem_conflict                 pass
+A_full_conflict                pass
+A_unaligned                    FAIL (see outputs/A_unaligned.diff for details)
+No memory leak found.

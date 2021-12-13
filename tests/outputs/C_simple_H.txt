@@ -1,0 +1,6 @@
+01 00 00 01 10 00 02 00  58 00 70 00 45 4c 46 00
+Mini-ELF version 1
+Entry point 0x100
+There are 2 program headers, starting at offset 16 (0x10)
+There is a symbol table starting at offset 88 (0x58)
+There is a string table starting at offset 112 (0x70)

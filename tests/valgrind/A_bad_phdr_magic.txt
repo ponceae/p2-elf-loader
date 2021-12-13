@@ -1,0 +1,21 @@
+==298570== Memcheck, a memory error detector
+==298570== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==298570== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==298570== Command: ../y86 -s inputs/bad-phdr_magic.o
+==298570== 
+Failed to read file
+==298570== 
+==298570== HEAP SUMMARY:
+==298570==     in use at exit: 472 bytes in 1 blocks
+==298570==   total heap usage: 3 allocs, 2 frees, 16,856 bytes allocated
+==298570== 
+==298570== LEAK SUMMARY:
+==298570==    definitely lost: 0 bytes in 0 blocks
+==298570==    indirectly lost: 0 bytes in 0 blocks
+==298570==      possibly lost: 0 bytes in 0 blocks
+==298570==    still reachable: 472 bytes in 1 blocks
+==298570==         suppressed: 0 bytes in 0 blocks
+==298570== Rerun with --leak-check=full to see details of leaked memory
+==298570== 
+==298570== For lists of detected and suppressed errors, rerun with: -s
+==298570== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

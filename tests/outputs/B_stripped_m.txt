@@ -1,0 +1,5 @@
+Contents of memory from 0100 to 0115:
+  0100  30 f3 0f 00 00 00 20 31  40 13 fd ff ff ff 60 31
+  0110  70 08 01 00 00
+Contents of memory from 0200 to 020b:
+  0200  aa bb cc dd 00 00 00 dd  00 00 00
